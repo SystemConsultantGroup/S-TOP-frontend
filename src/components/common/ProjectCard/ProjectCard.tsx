@@ -33,7 +33,7 @@ export function ProjectCard({
       <CardSection className={classes["img-section"]}>
         <Link
           href={{
-            pathname: `/${data.id}`,
+            pathname: `/projects/${data.id}`,
           }}
           style={{ textDecorationLine: "none" }}
         >
