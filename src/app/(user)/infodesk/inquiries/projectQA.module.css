@@ -16,9 +16,16 @@
 /* Main content section */
 .mainContent {
   width: 80%;
+  padding: 20px;
+
+  /* 모바일 / 태블릿 등 */
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    width: 100%;
+  }
+
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px;
   box-sizing: border-box;
   padding-bottom: 200px;
   padding-top: 80px;
